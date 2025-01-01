@@ -60,4 +60,16 @@ img {
 .intro-paragraph {
     font-size: var(--fs-body);
     letter-spacing: 2px;
+    margin-bottom: 2em;
+}
+
+.btn {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 100px;
+}
+
+.btn:hover, 
+.btn:focus {
+    opacity: 0.75;
 }
